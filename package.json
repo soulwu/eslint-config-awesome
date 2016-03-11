@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-cfp",
+  "version": "1.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soulwu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caifupai/eslint-config-cfp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caifupai/eslint-config-cfp/issues"
+  },
+  "homepage": "https://github.com/caifupai/eslint-config-cfp#readme",
+  "description": "财富派ESLint配置",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": "^1.10.3",
+    "babel-eslint": "^4.1.8",
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  }
+}
