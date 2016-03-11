@@ -26,7 +26,7 @@ ES6的let和const有块级作用域
 - `consistent-return` 返回语句要么都有值，要么没有
 
 ```js
-错误示例：
+//错误示例：
 function doSomething(condition) {
 
     if (condition) {
@@ -38,14 +38,15 @@ function doSomething(condition) {
 ```
 
 - `curly` 对于所有的控制语句，需要加花括号
-```js
-错误示例：
+
+``` js
+//错误示例：
 if (foo)
   doSomething();
 else
   doSomethingElse();
 ```
-
+- 
 
 ## 编码风格
 
