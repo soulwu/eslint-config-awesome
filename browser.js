@@ -3,7 +3,7 @@ module.exports = {
     browser: true
   },
   extends: [
-    './base.js'
+    __dirname + '/index.js'
   ],
   rules: {}
 };
