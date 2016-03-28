@@ -1,7 +1,7 @@
 {
   "name": "@cfp/eslint-config-cfp",
   "version": "1.2.0",
-  "main": "base.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
