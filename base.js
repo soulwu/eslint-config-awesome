@@ -53,7 +53,6 @@ module.exports = {
     'no-self-assign': 2,
     'no-self-compare': 2,
     'no-sequences': 2,
-    'no-unused-expressions': 2,
     'no-unused-labels': 2,
     radix: [
       2,
