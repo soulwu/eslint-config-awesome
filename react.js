@@ -23,7 +23,6 @@ module.exports = {
     'react/jsx-handler-names': 2,
     'react/jsx-indent-props': [2, 2],
     'react/jsx-indent': [2, 2],
-    'react/jsx-no-bind': [2, {ignoreRefs: true}],
     'react/jsx-uses-react': 2,
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-undef': 2,
