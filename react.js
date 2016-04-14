@@ -20,7 +20,6 @@ module.exports = {
     'react/wrap-multilines': 2,
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-equals-spacing': [2, 'never'],
-    'react/jsx-handler-names': 2,
     'react/jsx-indent-props': [2, 2],
     'react/jsx-indent': [2, 2],
     'react/jsx-uses-react': 2,
