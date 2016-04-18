@@ -1,6 +1,6 @@
 {
   "name": "@cfp/eslint-config-cfp",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,9 +22,8 @@
     "url": "git+https://gitlab.yuangongbao.com/frontend/eslint-config-cfp.git"
   },
   "description": "财富派ESLint配置",
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^2.5.1",
-    "eslint-plugin-react": "^4.2.3"
+    "eslint": "^2.8.0",
+    "eslint-plugin-react": "^5.0.0"
   }
 }
