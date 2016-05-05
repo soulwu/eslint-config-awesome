@@ -1,5 +1,5 @@
 {
-  "name": "@cfp/eslint-config-cfp",
+  "name": "eslint-config-cfp",
   "version": "1.8.0",
   "main": "index.js",
   "scripts": {
@@ -15,12 +15,16 @@
     "package.json",
     "README.md"
   ],
-  "author": "frontend",
+  "author": "caifupai",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.yuangongbao.com/frontend/eslint-config-cfp.git"
+    "url": "git+https://github.com/caifupai/eslint-config-cfp.git"
   },
+  "bugs": {
+    "url": "https://github.com/caifupai/eslint-config-cfp/issues"
+  },
+  "homepage": "https://github.com/caifupai/eslint-config-cfp#readme",
   "description": "财富派ESLint配置",
   "devDependencies": {
     "eslint": "^2.8.0",
