@@ -1,5 +1,13 @@
 #eslint-config-cfp
+
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
+[![Dependency Status](https://dependencyci.com/github/caifupai/eslint-config-cfp/badge)](https://dependencyci.com/github/caifupai/eslint-config-cfp)
+[![dependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/status.svg)](https://david-dm.org/caifupai/eslint-config-cfp)
+[![devDependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/dev-status.svg)](https://david-dm.org/caifupai/eslint-config-cfp?type=dev)
+[![peerDependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/peer-status.svg)](https://david-dm.org/caifupai/eslint-config-cfp?type=peer)
+
+[![Build Status](https://travis-ci.org/caifupai/eslint-config-cfp.svg?branch=master)](https://travis-ci.org/caifupai/eslint-config-cfp)
 
 ##前端编码规范
 
