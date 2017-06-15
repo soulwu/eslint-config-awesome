@@ -1,114 +1,114 @@
 module.exports = {
   rules: {
     'comma-dangle': [
-      2,
+      'error',
       'never'
     ],
     'no-cond-assign': [
-      2,
+      'error',
       'always'
     ],
-    'no-constant-condition': 2,
-    'no-debugger': 2,
-    'no-dupe-args': 2,
-    'no-dupe-keys': 2,
-    'no-duplicate-case': 2,
-    'no-empty': 2,
-    'no-empty-character-class': 2,
-    'no-ex-assign': 2,
-    'no-extra-boolean-cast': 2,
-    'no-extra-semi': 2,
-    'no-func-assign': 2,
+    'no-constant-condition': 'error',
+    'no-debugger': 'error',
+    'no-dupe-args': 'error',
+    'no-dupe-keys': 'error',
+    'no-duplicate-case': 'error',
+    'no-empty': 'error',
+    'no-empty-character-class': 'error',
+    'no-ex-assign': 'error',
+    'no-extra-boolean-cast': 'error',
+    'no-extra-semi': 'error',
+    'no-func-assign': 'error',
     'no-inner-declarations': [
-      2,
+      'error',
       'both'
     ],
-    'no-invalid-regexp': 2,
-    'no-irregular-whitespace': 2,
-    'no-negated-in-lhs': 2,
-    'no-obj-calls': 2,
-    'no-regex-spaces': 2,
-    'no-sparse-arrays': 2,
-    'no-unexpected-multiline': 2,
-    'no-unreachable': 2,
-    'use-isnan': 2,
-    'valid-typeof': 2,
+    'no-invalid-regexp': 'error',
+    'no-irregular-whitespace': 'error',
+    'no-negated-in-lhs': 'error',
+    'no-obj-calls': 'error',
+    'no-regex-spaces': 'error',
+    'no-sparse-arrays': 'error',
+    'no-unexpected-multiline': 'error',
+    'no-unreachable': 'error',
+    'use-isnan': 'error',
+    'valid-typeof': 'error',
     curly: [
-      2,
+      'error',
       'all'
     ],
-    'no-case-declarations': 2,
-    'no-empty-pattern': 2,
-    'no-eq-null': 2,
+    'no-case-declarations': 'error',
+    'no-empty-pattern': 'error',
+    'no-eq-null': 'error',
     'no-redeclare': [
-      2,
+      'error',
       {
         builtinGlobals: true
       }
     ],
     'no-return-assign': [
-      2,
+      'error',
       'except-parens'
     ],
-    'no-self-assign': 2,
-    'no-self-compare': 2,
-    'no-sequences': 2,
-    'no-unused-labels': 2,
+    'no-self-assign': 'error',
+    'no-self-compare': 'error',
+    'no-sequences': 'error',
+    'no-unused-labels': 'error',
     radix: [
-      2,
+      'error',
       'always'
     ],
-    'no-delete-var': 2,
-    'no-undef': 2,
+    'no-delete-var': 'error',
+    'no-undef': 'error',
     'no-unused-vars': [
-      2,
+      'error',
       {
         vars: 'all',
         args: 'after-used'
       }
     ],
     'no-use-before-define': [
-      2,
+      'error',
       {
         functions: false,
         classes: true
       }
     ],
     'array-bracket-spacing': [
-      2,
+      'error',
       'never'
     ],
     'brace-style': [
-      2,
+      'error',
       '1tbs',
       {
         allowSingleLine: false
       }
     ],
     camelcase: [
-      2,
+      'error',
       {
         properties: 'always'
       }
     ],
     'comma-spacing': [
-      2,
+      'error',
       {
         before: false,
         after: true
       }
     ],
     'comma-style': [
-      2,
+      'error',
       'last'
     ],
     'computed-property-spacing': [
-      2,
+      'error',
       'never'
     ],
-    'eol-last': 2,
+    'eol-last': 'error',
     indent: [
-      2,
+      'error',
       2,
       {
         SwitchCase: 1,
@@ -120,179 +120,173 @@ module.exports = {
       }
     ],
     'key-spacing': [
-      2,
+      'error',
       {
         beforeColon: false,
         afterColon: true,
         mode: 'strict'
       }
     ],
-    'keyword-spacing': 2,
+    'keyword-spacing': 'error',
     'linebreak-style': [
-      2,
+      'error',
       'unix'
     ],
     'new-cap': [
-      2,
+      'error',
       {
         properties: false
       }
     ],
-    'new-parens': 2,
-    'no-bitwise': 2,
-    'no-lonely-if': 2,
+    'new-parens': 'error',
+    'no-bitwise': 'error',
+    'no-lonely-if': 'error',
     'no-multiple-empty-lines': [
-      2,
+      'error',
       {
         max: 2,
         maxEOF: 1,
         maxBOF: 0
       }
     ],
-    'no-new-object': 2,
-    'no-spaced-func': 2,
-    'no-trailing-spaces': 2,
-    'no-underscore-dangle': [
-      2,
-      {
-        allowAfterThis: true
-      }
-    ],
-    'no-unneeded-ternary': 2,
-    'no-whitespace-before-property': 2,
+    'no-new-object': 'error',
+    'no-spaced-func': 'error',
+    'no-trailing-spaces': 'error',
+    'no-unneeded-ternary': 'error',
+    'no-whitespace-before-property': 'error',
     'object-curly-spacing': [
-      2,
+      'error',
       'never'
     ],
     'operator-linebreak': [
-      2,
+      'error',
       'before'
     ],
     'quote-props': [
-      2,
+      'error',
       'as-needed'
     ],
     quotes: [
-      2,
+      'error',
       'single'
     ],
     semi: [
-      2,
+      'error',
       'always'
     ],
-    'semi-spacing': 2,
+    'semi-spacing': 'error',
     'space-before-blocks': [
-      2,
+      'error',
       'always'
     ],
     'space-before-function-paren': [
-      2,
+      'error',
       'never'
     ],
     'space-in-parens': [
-      2,
+      'error',
       'never'
     ],
-    'space-infix-ops': 2,
+    'space-infix-ops': 'error',
     'space-unary-ops': [
-      2,
+      'error',
       {
         words: true,
         nonwords: false
       }
     ],
-    'no-extra-parens': [2, 'functions'],
-    'no-shadow-restricted-names': 2,
-    'no-array-constructor': 2,
+    'no-extra-parens': ['error', 'functions'],
+    'no-shadow-restricted-names': 'error',
+    'no-array-constructor': 'error',
     // treat var statements as if they were block scoped
-    'block-scoped-var': 2,
+    'block-scoped-var': 'error',
     // require return statements to either always or never specify values
-    'consistent-return': 2,
+    'consistent-return': 'error',
     // require default case in switch statements
-    'default-case': 2,
+    'default-case': 'error',
     // encourages use of dot notation whenever possible
-    'dot-notation': [2, {allowKeywords: true}],
+    'dot-notation': ['error', {allowKeywords: true}],
     // enforces consistent newlines before or after dots
-    'dot-location': [2, 'property'],
+    'dot-location': ['error', 'property'],
     // require the use of === and !==
-    eqeqeq: 2,
+    eqeqeq: 'error',
     // make sure for-in loops have an if statement
-    'guard-for-in': 2,
+    'guard-for-in': 'error',
     // disallow the use of alert, confirm, and prompt
-    'no-alert': 2,
+    'no-alert': 'error',
     // disallow use of arguments.caller or arguments.callee
-    'no-caller': 2,
+    'no-caller': 'error',
     // disallow division operators explicitly at beginning of regular expression
-    'no-div-regex': 2,
+    'no-div-regex': 'error',
     // disallow else after a return in an if
-    'no-else-return': 2,
+    'no-else-return': 'error',
     // disallow use of eval()
-    'no-eval': 2,
+    'no-eval': 'error',
     // disallow adding to native types
-    'no-extend-native': 2,
+    'no-extend-native': 'error',
     // disallow unnecessary function binding
-    'no-extra-bind': 2,
+    'no-extra-bind': 'error',
     // disallow fallthrough of case statements
-    'no-fallthrough': 2,
+    'no-fallthrough': 'error',
     // disallow the use of leading or trailing decimal points in numeric literals
-    'no-floating-decimal': 2,
+    'no-floating-decimal': 'error',
     // disallow the type conversions with shorter notations
-    'no-implicit-coercion': [2, {
+    'no-implicit-coercion': ['error', {
       boolean: true,
       number: true,
       string: true,
       allow: ['!!']
     }],
     // disallow use of eval()-like methods
-    'no-implied-eval': 2,
+    'no-implied-eval': 'error',
     // disallow this keywords outside of classes or class-like objects
-    // 'no-invalid-this': 2,
+    // 'no-invalid-this': 'error',
     // disallow usage of __iterator__ property
-    'no-iterator': 2,
+    'no-iterator': 'error',
     // disallow use of labeled statements
-    'no-labels': 2,
+    'no-labels': 'error',
     // disallow unnecessary nested blocks
-    'no-lone-blocks': 2,
+    'no-lone-blocks': 'error',
     // disallow creation of functions within loops
-    'no-loop-func': 2,
+    'no-loop-func': 'error',
     // disallow use of multiple spaces
-    'no-multi-spaces': 2,
+    'no-multi-spaces': 'error',
     // disallow use of multiline strings
-    'no-multi-str': 2,
+    'no-multi-str': 'error',
     // disallow reassignments of native objects
-    'no-native-reassign': 2,
+    'no-native-reassign': 'error',
     // disallow use of new operator when not part of the assignment or comparison
-    'no-new': 2,
+    'no-new': 'error',
     // disallow use of new operator for Function object
-    'no-new-func': 2,
+    'no-new-func': 'error',
     // disallows creating new instances of String,Number, and Boolean
-    'no-new-wrappers': 2,
+    'no-new-wrappers': 'error',
     // disallow use of (old style) octal literals
-    'no-octal': 2,
+    'no-octal': 'error',
     // disallow use of octal escape sequences in string literals, such as
-    // var foo = 'Copyright \251';
-    'no-octal-escape': 2,
+    // var foo = 'Copyright \'error'51';
+    'no-octal-escape': 'error',
     // disallow reassignment of function parameters
     // disallow parameter object manipulation
     // rule: http://eslint.org/docs/rules/no-param-reassign.html
-    // 'no-param-reassign': [2, {props: false}],
+    // 'no-param-reassign': ['error', {props: false}],
     // disallow usage of __proto__ property
-    'no-proto': 2,
+    'no-proto': 'error',
     // disallow use of `javascript:` urls.
-    'no-script-url': 2,
+    'no-script-url': 'error',
     // restrict what can be thrown as an exception
-    'no-throw-literal': 2,
+    'no-throw-literal': 'error',
     // disallow unnecessary .call() and .apply()
-    'no-useless-call': 2,
+    'no-useless-call': 'error',
     // disallow use of void operator
-    'no-void': 2,
+    'no-void': 'error',
     // disallow use of the with statement
-    'no-with': 2,
+    'no-with': 'error',
     // requires to declare all vars on top of their containing scope
-    'vars-on-top': 2,
+    'vars-on-top': 'error',
     // require immediate function invocation to be wrapped in parentheses
-    'wrap-iife': [2, 'inside'],
+    'wrap-iife': ['error', 'inside'],
     // require or disallow Yoda conditions
-    yoda: 2
+    yoda: 'error'
   }
 };

@@ -3,44 +3,44 @@ module.exports = {
     es6: true
   },
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 8,
     sourceType: 'module',
     ecmaFeatures: {
       experimentalObjectRestSpread: true
     }
   },
   rules: {
-    'arrow-spacing': 2,
-    'constructor-super': 2,
+    'arrow-spacing': 'error',
+    'constructor-super': 'error',
     'generator-star-spacing': [
-      2,
+      'error',
       {
-        before: true,
-        after: false
+        before: false,
+        after: true
       }
     ],
-    'no-class-assign': 2,
-    'no-confusing-arrow': 2,
-    'no-const-assign': 2,
-    'no-dupe-class-members': 2,
-    'no-new-symbol': 2,
-    'no-this-before-super': 2,
-    'no-useless-constructor': 2,
-    'no-var': 2,
-    'object-shorthand': 2,
-    'prefer-const': 2,
-    'prefer-rest-params': 2,
-    'prefer-spread': 2,
-    'prefer-template': 2,
+    'no-class-assign': 'error',
+    'no-confusing-arrow': 'error',
+    'no-const-assign': 'error',
+    'no-dupe-class-members': 'error',
+    'no-new-symbol': 'error',
+    'no-this-before-super': 'error',
+    'no-useless-constructor': 'error',
+    'no-var': 'error',
+    'object-shorthand': 'error',
+    'prefer-const': 'error',
+    'prefer-rest-params': 'error',
+    'prefer-spread': 'error',
+    'prefer-template': 'error',
     'template-curly-spacing': [
-      2,
+      'error',
       'never'
     ],
     'yield-star-spacing': [
-      2,
+      'error',
       {
-        before: true,
-        after: false
+        before: false,
+        after: true
       }
     ]
   }

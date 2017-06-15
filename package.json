@@ -28,12 +28,8 @@
   "homepage": "https://github.com/caifupai/eslint-config-cfp#readme",
   "description": "财富派ESLint配置",
   "devDependencies": {
-    "eslint": "^3.2.2",
-    "eslint-plugin-react": "^6.0.0",
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0",
     "semantic-release": "^4.3.5"
-  },
-  "peerDependencies": {
-    "eslint": "^3.0.0",
-    "eslint-plugin-react": "^6.0.0"
   }
 }
