@@ -37,7 +37,7 @@ module.exports = {
     radix: ['error', 'always'],
     'no-delete-var': 'error',
     'no-undef': 'error',
-    'no-unused-vars': ['error', {vars: 'all', args: 'after-used'}],
+    'no-unused-vars': ['error', {vars: 'all', args: 'after-used', ignoreRestSiblings: true}],
     'no-use-before-define': ['error', {functions: false, classes: true}],
     'array-bracket-spacing': ['error', 'never'],
     'brace-style': ['error', '1tbs', {allowSingleLine: false}],
