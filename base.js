@@ -1,13 +1,7 @@
 module.exports = {
   rules: {
-    'comma-dangle': [
-      'error',
-      'never'
-    ],
-    'no-cond-assign': [
-      'error',
-      'always'
-    ],
+    'comma-dangle': ['error', 'never'],
+    'no-cond-assign': ['error', 'always'],
     'no-constant-condition': 'error',
     'no-debugger': 'error',
     'no-dupe-args': 'error',
@@ -19,10 +13,7 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
     'no-extra-semi': 'error',
     'no-func-assign': 'error',
-    'no-inner-declarations': [
-      'error',
-      'both'
-    ],
+    'no-inner-declarations': ['error', 'both'],
     'no-invalid-regexp': 'error',
     'no-irregular-whitespace': 'error',
     'no-negated-in-lhs': 'error',
@@ -33,168 +24,53 @@ module.exports = {
     'no-unreachable': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'error',
-    curly: [
-      'error',
-      'all'
-    ],
+    curly: ['error', 'all'],
     'no-case-declarations': 'error',
     'no-empty-pattern': 'error',
     'no-eq-null': 'error',
-    'no-redeclare': [
-      'error',
-      {
-        builtinGlobals: true
-      }
-    ],
-    'no-return-assign': [
-      'error',
-      'except-parens'
-    ],
+    'no-redeclare': ['error', {builtinGlobals: true}],
+    'no-return-assign': ['error', 'except-parens'],
     'no-self-assign': 'error',
     'no-self-compare': 'error',
     'no-sequences': 'error',
     'no-unused-labels': 'error',
-    radix: [
-      'error',
-      'always'
-    ],
+    radix: ['error', 'always'],
     'no-delete-var': 'error',
     'no-undef': 'error',
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'after-used'
-      }
-    ],
-    'no-use-before-define': [
-      'error',
-      {
-        functions: false,
-        classes: true
-      }
-    ],
-    'array-bracket-spacing': [
-      'error',
-      'never'
-    ],
-    'brace-style': [
-      'error',
-      '1tbs',
-      {
-        allowSingleLine: false
-      }
-    ],
-    camelcase: [
-      'error',
-      {
-        properties: 'always'
-      }
-    ],
-    'comma-spacing': [
-      'error',
-      {
-        before: false,
-        after: true
-      }
-    ],
-    'comma-style': [
-      'error',
-      'last'
-    ],
-    'computed-property-spacing': [
-      'error',
-      'never'
-    ],
+    'no-unused-vars': ['error', {vars: 'all', args: 'after-used'}],
+    'no-use-before-define': ['error', {functions: false, classes: true}],
+    'array-bracket-spacing': ['error', 'never'],
+    'brace-style': ['error', '1tbs', {allowSingleLine: false}],
+    camelcase: ['error', {properties: 'always'}],
+    'comma-spacing': ['error', {before: false, after: true}],
+    'comma-style': ['error', 'last'],
+    'computed-property-spacing': ['error', 'never'],
     'eol-last': 'error',
-    indent: [
-      'error',
-      2,
-      {
-        SwitchCase: 1,
-        VariableDeclarator: {
-          var: 2,
-          let: 2,
-          const: 3
-        }
-      }
-    ],
-    'key-spacing': [
-      'error',
-      {
-        beforeColon: false,
-        afterColon: true,
-        mode: 'strict'
-      }
-    ],
+    indent: ['error', 2, {SwitchCase: 1, VariableDeclarator: {var: 2, let: 2, const: 3}}],
+    'key-spacing': ['error', {beforeColon: false, afterColon: true, mode: 'strict'}],
     'keyword-spacing': 'error',
-    'linebreak-style': [
-      'error',
-      'unix'
-    ],
-    'new-cap': [
-      'error',
-      {
-        properties: false
-      }
-    ],
+    'linebreak-style': ['error', 'unix'],
+    'new-cap': ['error', {properties: false}],
     'new-parens': 'error',
     'no-bitwise': 'error',
     'no-lonely-if': 'error',
-    'no-multiple-empty-lines': [
-      'error',
-      {
-        max: 2,
-        maxEOF: 1,
-        maxBOF: 0
-      }
-    ],
+    'no-multiple-empty-lines': ['error', {max: 2, maxEOF: 1, maxBOF: 0}],
     'no-new-object': 'error',
     'no-spaced-func': 'error',
     'no-trailing-spaces': 'error',
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
-    'object-curly-spacing': [
-      'error',
-      'never'
-    ],
-    'operator-linebreak': [
-      'error',
-      'before'
-    ],
-    'quote-props': [
-      'error',
-      'as-needed'
-    ],
-    quotes: [
-      'error',
-      'single'
-    ],
-    semi: [
-      'error',
-      'always'
-    ],
+    'object-curly-spacing': ['error', 'never'],
+    'operator-linebreak': ['error', 'before'],
+    'quote-props': ['error', 'as-needed'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
     'semi-spacing': 'error',
-    'space-before-blocks': [
-      'error',
-      'always'
-    ],
-    'space-before-function-paren': [
-      'error',
-      'never'
-    ],
-    'space-in-parens': [
-      'error',
-      'never'
-    ],
+    'space-before-blocks': ['error', 'always'],
+    'space-before-function-paren': ['error', 'never'],
+    'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
-    'space-unary-ops': [
-      'error',
-      {
-        words: true,
-        nonwords: false
-      }
-    ],
+    'space-unary-ops': ['error', {words: true, nonwords: false}],
     'no-extra-parens': ['error', 'functions'],
     'no-shadow-restricted-names': 'error',
     'no-array-constructor': 'error',
@@ -231,12 +107,7 @@ module.exports = {
     // disallow the use of leading or trailing decimal points in numeric literals
     'no-floating-decimal': 'error',
     // disallow the type conversions with shorter notations
-    'no-implicit-coercion': ['error', {
-      boolean: true,
-      number: true,
-      string: true,
-      allow: ['!!']
-    }],
+    'no-implicit-coercion': ['error', {boolean: true, number: true, string: true, allow: ['!!']}],
     // disallow use of eval()-like methods
     'no-implied-eval': 'error',
     // disallow this keywords outside of classes or class-like objects
@@ -250,7 +121,7 @@ module.exports = {
     // disallow creation of functions within loops
     'no-loop-func': 'error',
     // disallow use of multiple spaces
-    'no-multi-spaces': 'error',
+    'no-multi-spaces': ['error', {ignoreEOLComments: true}],
     // disallow use of multiline strings
     'no-multi-str': 'error',
     // disallow reassignments of native objects
