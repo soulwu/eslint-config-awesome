@@ -22,7 +22,7 @@ module.exports = {
     'react/no-unknown-property': 'error',
     'react/prefer-es6-class': ['error', 'always'],
     'react/prefer-stateless-function': 'warn',
-    'react/prop-types': ['warn', {ignore: ['children', 'callNative', 'addNativeEvent', 'clearNativeEvent']}],
+    'react/prop-types': ['warn', {ignore: ['children', 'dispatch']}],
     'react/react-in-jsx-scope': 'error',
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'error',

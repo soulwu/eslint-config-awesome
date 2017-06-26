@@ -6,5 +6,18 @@ module.exports = {
     __DEV__: true
   },
   rules: {
+    'react/prop-types': [
+      'warn',
+      {
+        ignore: [
+          'children',
+          'dispatch',
+          'callNative',
+          'addNativeEvent',
+          'clearNativeEvent',
+          'clearAllNativeEvent'
+        ]
+      }
+    ]
   }
 };
