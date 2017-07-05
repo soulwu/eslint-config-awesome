@@ -12,10 +12,18 @@ module.exports = {
         ignore: [
           'children',
           'dispatch',
+          /* withNativeModule */
           'callNative',
           'addNativeEvent',
           'clearNativeEvent',
-          'clearAllNativeEvent'
+          'clearAllNativeEvent',
+          /* end:withNativeModule */
+          /* withUIComponent */
+          'showUI',
+          /* end:withUIComponent */
+          /* react-native-navigation */
+          'navigator'
+          /* end:react-native-navigation */
         ]
       }
     ]
