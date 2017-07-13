@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-cfp",
+  "name": "eslint-config-awesome",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -17,17 +17,17 @@
     "package.json",
     "README.md"
   ],
-  "author": "caifupai",
+  "author": "soulwu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/caifupai/eslint-config-cfp.git"
+    "url": "https://github.com/soulwu/eslint-config-awesome.git"
   },
   "bugs": {
-    "url": "https://github.com/caifupai/eslint-config-cfp/issues"
+    "url": "https://github.com/soulwu/eslint-config-awesome/issues"
   },
-  "homepage": "https://github.com/caifupai/eslint-config-cfp#readme",
-  "description": "财富派ESLint配置",
+  "homepage": "https://github.com/soulwu/eslint-config-awesome#readme",
+  "description": "ESLint配置",
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-plugin-react": "^7.1.0",
