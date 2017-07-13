@@ -1,13 +1,13 @@
-#eslint-config-cfp
+#eslint-config-awesome
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-[![Dependency Status](https://dependencyci.com/github/caifupai/eslint-config-cfp/badge)](https://dependencyci.com/github/caifupai/eslint-config-cfp)
-[![dependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/status.svg)](https://david-dm.org/caifupai/eslint-config-cfp)
-[![devDependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/dev-status.svg)](https://david-dm.org/caifupai/eslint-config-cfp?type=dev)
-[![peerDependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/peer-status.svg)](https://david-dm.org/caifupai/eslint-config-cfp?type=peer)
+[![Dependency Status](https://dependencyci.com/github/soulwu/eslint-config-awesome/badge)](https://dependencyci.com/github/soulwu/eslint-config-awesome)
+[![dependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/status.svg)](https://david-dm.org/soulwu/eslint-config-awesome)
+[![devDependencies Status](https://david-dm.org/soulwu/eslint-config-awesome/dev-status.svg)](https://david-dm.org/soulwu/eslint-config-awesome?type=dev)
+[![peerDependencies Status](https://david-dm.org/caifupai/eslint-config-cfp/peer-status.svg)](https://david-dm.org/soulwu/eslint-config-awesome?type=peer)
 
-[![Build Status](https://travis-ci.org/caifupai/eslint-config-cfp.svg?branch=master)](https://travis-ci.org/caifupai/eslint-config-cfp)
+[![Build Status](https://travis-ci.org/soulwu/eslint-config-awesome.svg?branch=master)](https://travis-ci.org/soulwu/eslint-config-awesome)
 
 ##前端编码规范
 
